@@ -1,0 +1,93 @@
+/*         game    */
+.cards{
+	display: flex;
+	flex-direction: column;
+ }
+ /*     block question    */
+ .cards__play{
+	max-width: 100%;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.866);
+	text-shadow: 0 0 1rem #000;
+	margin-bottom: 5px;
+	border-radius: 5px;
+ }
+ /*     block answer    */
+ .cards__answer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-bottom: 10px;
+ }
+ 
+ /*      block answer options     */
+ .question{
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.866);
+	text-shadow: 0 0 1rem #000;
+	height: 300px;
+	width: 50%;
+	margin-right: 5px;
+	border-radius: 5px;
+ }
+ .question__text{
+	font-family: 'Lemonada', cursive;
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 1rem;
+ }
+ 
+ .options{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+ }
+ 
+ .option{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.866);
+	text-shadow: 0 0 1rem #000;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lemonada', cursive;
+	font-size: 1rem;
+	border-radius: 10px;
+	border: 0.1rem solid #fff;
+	color: #fff;
+ }
+ 
+ .option:hover{
+	cursor: pointer;
+	box-shadow:  0 0.3rem 1.2rem 0 rgb(134, 131, 131);
+	transform: translateY(-0.2rem);
+	transition: transform 150ms;
+ }
+ 
+ /*        info       */
+ .cards__info{
+	background-color: rgba(0, 0, 0, 0.866);
+	text-shadow: 0 0 1rem #000;
+	height: 300px;
+	width: 50%;
+	border-radius: 5px;
+ }
+
+ /*       button__next      */
+ .button__next{
+	width: 50%;
+ }
+ .btn__next{
+	width: 100%;
+	padding: 5px 0;
+	font-family: 'Lemonada', cursive;
+	background-color: rgba(0, 0, 0, 0.866);
+	text-shadow: 0 0 1rem #000;
+	font-size: 1rem;
+	border-radius: 10px;
+	color: #fff;
+ }
